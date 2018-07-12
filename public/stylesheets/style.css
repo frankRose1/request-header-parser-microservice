@@ -1,0 +1,52 @@
+body {
+    background-color: #605098;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.parser-container {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {font-size: 55px;}
+h3 {font-size: 22px;}
+p{font-size: 18px;}
+code a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #eee;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+    transition: color 0.5s ease-in-out;
+}
+
+code a:hover {color: #605098}
+
+pre {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    color: #000;
+    text-align: initial;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.technologies{
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #eee;
+    color: #605098;
+}
