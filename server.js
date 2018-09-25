@@ -2,7 +2,7 @@ const express = require('express');
 const useragent = require('express-useragent');
 const path = require('path');
 const routes = require('./routes/index');
-
+const port = process.env.PORT || 3000;
 const app = express();
 
 //set the view engine
@@ -15,8 +15,8 @@ app.use(useragent.express());
 
 app.use('/', routes);
 
-app.listen(3000, () =>{
-    console.log('Working');
+app.listen(port, () =>{
+    console.log('Server is running');
 });
 
 module.exports = app;

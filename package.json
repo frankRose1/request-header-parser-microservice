@@ -1,0 +1,29 @@
+{
+  "name": "request-header-parser-microservice",
+  "version": "1.0.0",
+  "description": "Parses the request and sends a user software information about their device",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-useragent": "^1.0.12",
+    "pug": "^2.0.3"
+  },
+  "engines": {
+    "node": "8.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankRose1/request-header-parser-microservice.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankRose1/request-header-parser-microservice/issues"
+  },
+  "homepage": "https://github.com/frankRose1/request-header-parser-microservice#readme"
+}
